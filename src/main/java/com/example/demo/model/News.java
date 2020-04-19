@@ -2,8 +2,10 @@ package com.example.demo.model;
 
 import lombok.AllArgsConstructor;
 
+import java.io.Serializable;
+
 @AllArgsConstructor
-public class News {
+public class News implements Serializable {
     public String title;
     public String content;
     public String author;

@@ -15,6 +15,8 @@ import java.util.Collection;
 import java.util.Collections;
 
 @Entity
+//@Table( uniqueConstraints=
+//        @UniqueConstraint(name="user",columnNames = "username"))
 @Table
 @AllArgsConstructor@NoArgsConstructor@Setter@Getter
 public class User {
